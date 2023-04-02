@@ -1,0 +1,8 @@
+# Visual Question Generation From Remote Sensing Images
+
+*Laila Bashmal, Yakoub Bazi, Farid Melgani , Riccardo Ricci, Mohamad M. Al Rahhal , and Mansour Zuair*
+
+> Visual question generation (VQG) is a fundamental task in vision-language understanding that aims to generate relevant questions about the given input image. In this paper, we propose a paragraph-based VQG approach for generating intelligent questions in natural language about remote sensing (RS) images. Specifically, our proposed framework consists of two transformer-based vision and language models. First, we employ a swin-transformer encoder to generate a multi-scale representative visual feature from the image. Then, this feature is used as a prefix to guide a generative pre-trained transformer-2 (GPT-2) decoder in generating multiple questions in the form of a paragraph to cover the abundant visual information contained in the RS scene. To train the model, the language decoder is fine-tuned on RS dataset to generate a set of relevant questions from the RS image. We evaluate our model on two visual question-answering (VQA) datasets in RS.  Additionally, we construct a new dataset termed TextRS-VQA for better evaluation for our VQG model. This dataset consists of questions completely annotated by humans which addresses the high redundancy of the questions in prior VQA datasets. Extensive experiments using several accuracy and diversity metrics demonstrate the effectiveness of our proposed VQG model in generating meaningful, valid, and diverse questions from RS images. 
+
+The full paper is available at: https://ieeexplore.ieee.org/abstract/document/10081015.
+
